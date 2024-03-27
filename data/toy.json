@@ -1,0 +1,127 @@
+[
+    {
+        "_id": "t101",
+        "name": "Talking Doll",
+        "price": 123,
+        "labels": [
+            "Battery Powered",
+            "Puzzle",
+            "On wheels"
+        ],
+        "createdAt": 1641207680000,
+        "inStock": false
+    },
+    {
+        "_id": "t102",
+        "name": "Singing Teddy",
+        "price": 123,
+        "labels": [
+            "Outdoor",
+            "Baby",
+            "Art"
+        ],
+        "createdAt": 1653081600000,
+        "inStock": true
+    },
+    {
+        "_id": "t103",
+        "name": "Dancing Robot",
+        "price": 123,
+        "labels": [
+            "Doll",
+            "Box game",
+            "Battery Powered"
+        ],
+        "createdAt": 1648949760000,
+        "inStock": true
+    },
+    {
+        "_id": "t104",
+        "name": "Glowing Blocks",
+        "price": 117,
+        "labels": [
+            "Outdoor",
+            "Battery Powered",
+            "Art"
+        ],
+        "createdAt": 1659444480000,
+        "inStock": false
+    },
+    {
+        "_id": "t105",
+        "name": "Colorful Spinner",
+        "price": 123,
+        "labels": [
+            "Puzzle",
+            "Outdoor",
+            "Box game"
+        ],
+        "createdAt": 1655364480000,
+        "inStock": true
+    },
+    {
+        "_id": "t106",
+        "name": "Chirping Bird",
+        "price": 123,
+        "labels": [
+            "Baby",
+            "Doll",
+            "Battery Powered"
+        ],
+        "createdAt": 1645248000000,
+        "inStock": false
+    },
+    {
+        "_id": "t107",
+        "name": "Jumping Kangaroo",
+        "price": 123,
+        "labels": [
+            "Puzzle",
+            "Outdoor",
+            "Art"
+        ],
+        "createdAt": 1649139840000,
+        "inStock": true
+    },
+    {
+        "_id": "t108",
+        "name": "Musical Keyboard",
+        "price": 123,
+        "labels": [
+            "On wheels",
+            "Battery Powered",
+            "Box game"
+        ],
+        "createdAt": 1654434240000,
+        "inStock": false
+    },
+    {
+        "_id": "t109",
+        "name": "Flying Disc",
+        "price": 123,
+        "labels": [
+            "Baby",
+            "Doll",
+            "Art"
+        ],
+        "createdAt": 1656499200000,
+        "inStock": true
+    },
+    {
+        "_id": "t110",
+        "name": "Rolling Turtle",
+        "price": 123,
+        "labels": [
+            "Outdoor",
+            "Battery Powered",
+            "On wheels"
+        ],
+        "createdAt": 1652812800000,
+        "inStock": true
+    },
+    {
+        "name": "Remote control tractor",
+        "price": 144,
+        "_id": "RtyAa"
+    }
+]
