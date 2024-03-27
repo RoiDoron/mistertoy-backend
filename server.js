@@ -30,12 +30,12 @@ app.use(cors(corsOptions))
 
 // Toy LIST
 app.get('/api/toy', (req, res) => {
-
-    const filterBy = {
-        txt: req.query.txt || '',
-        maxPrice: +req.query.maxPrice || 0,
-    }
-    toyService.query(filterBy)
+    const { filterBy = {}, sort = {} } = req.query.params
+    // const filterBy = {
+    //     txt: req.query.txt || '',
+    //     maxPrice: +req.query.maxPrice || 0,
+    // }
+    toyService.query(filterBy,sort)
         .then((toys) => {
             res.send(toys)
         })
@@ -100,21 +100,22 @@ app.put('/api/toy', (req, res) => {
 
 // Toy DELETE
 app.delete('/api/toy/:toyId', (req, res) => {
-    const loggedinUser = userService.validateToken(req.cookies.loginToken)
-    loggerService.info('loggedinUser toy delete:', loggedinUser)
-    if (!loggedinUser) {
-        loggerService.info('Cannot remove toy, No user')
-        return res.status(401).send('Cannot remove toy')
-    }
-
+    // const loggedinUser = userService.validateToken(req.cookies.loginToken)
+    // loggerService.info('loggedinUser toy delete:', loggedinUser)
+    // if (!loggedinUser) {
+    //     loggerService.info('Cannot remove toy, No user')
+    //     return res.status(401).send('Cannot remove toy')
+    // }
+    
+    
     const { toyId } = req.params
-    toyService.remove(toyId, loggedinUser)
+    toyService.remove(toyId)
         .then(() => {
-            loggerService.info(`Toy ${toyId} removed`)
+            // loggerService.info(`Toy ${toyId} removed`)
             res.send('Removed!')
         })
         .catch((err) => {
-            loggerService.error('Cannot remove toy', err)
+            // loggerService.error('Cannot remove toy', err)
             res.status(400).send('Cannot remove toy')
         })
 
