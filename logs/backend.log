@@ -1,27 +1,628 @@
-26.3.2024, 23:46:56 - INFO - Server listening on port http://127.0.0.1:3030/
-26.3.2024, 23:50:32 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:21:52 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:32:06 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:37:26 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:37:32 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:38:25 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:53:13 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:54:25 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 12:54:51 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:02:33 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:03:19 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:11:58 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:13:51 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:21:02 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 13:21:26 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:52:48 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:53:15 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:53:19 - INFO - loggedinUser toy delete: | null
-27.3.2024, 14:53:19 - INFO - Cannot remove toy, No user
-27.3.2024, 14:53:56 - INFO - loggedinUser toy delete: | null
-27.3.2024, 14:53:56 - INFO - Cannot remove toy, No user
-27.3.2024, 14:55:26 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:55:52 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:56:09 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 14:57:00 - INFO - Server listening on port http://127.0.0.1:3030/
-27.3.2024, 15:26:45 - INFO - Server listening on port http://127.0.0.1:3030/
+28.3.2024, 14:28:00 - INFO - server.js loaded... 
+28.3.2024, 14:28:00 - INFO - Server is running on port: 3030 
+28.3.2024, 14:29:43 - INFO - Req was made | / 
+28.3.2024, 14:29:43 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:29:44 - INFO - Req was made | / 
+28.3.2024, 14:29:44 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:31:11 - INFO - Req was made | / 
+28.3.2024, 14:31:11 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:34:01 - INFO - Req was made | / 
+28.3.2024, 14:34:01 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:35:57 - DEBUG - auth.service - signup with username: undefined, fullname: rou doron 
+28.3.2024, 14:35:57 - ERROR - Failed to signup Error: Missing details 
+28.3.2024, 14:36:30 - DEBUG - auth.service - signup with username: undefined, fullname: roidoron 
+28.3.2024, 14:36:30 - ERROR - Failed to signup Error: Missing details 
+28.3.2024, 14:36:57 - DEBUG - auth.service - signup with username: roi, fullname: roidoron 
+28.3.2024, 14:36:58 - DEBUG - auth.route - new account created: {"username":"roi","password":"$2b$10$SFRB500edYvs14dwK9fcQ.z/6ukXyeQ1F5crJyoAdHKmHlhlwOnzO","fullname":"roidoron","score":0,"_id":"6605646af34cb56684fe5ca8"} 
+28.3.2024, 14:36:58 - DEBUG - auth.service - login with username: roi 
+28.3.2024, 14:40:28 - INFO - Req was made | / 
+28.3.2024, 14:40:28 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:40:45 - INFO - Req was made | / 
+28.3.2024, 14:40:45 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:41:04 - INFO - Req was made | / 
+28.3.2024, 14:41:04 - ERROR - Failed to get toys | TypeError: logger.detoy is not a function 
+28.3.2024, 14:41:58 - INFO - server.js loaded... 
+28.3.2024, 14:41:58 - INFO - Server is running on port: 3030 
+28.3.2024, 14:42:00 - INFO - Req was made | / 
+28.3.2024, 14:42:00 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:41:03 - INFO - server.js loaded... 
+30.3.2024, 9:41:03 - INFO - Server is running on port: 3030 
+30.3.2024, 9:44:17 - INFO - Server is running on port: 3030 
+30.3.2024, 9:44:17 - INFO - server.js loaded... 
+30.3.2024, 9:46:54 - INFO - Req was made | / 
+30.3.2024, 9:46:54 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:48:18 - INFO - Req was made | / 
+30.3.2024, 9:48:18 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:48:45 - INFO - Req was made | / 
+30.3.2024, 9:48:45 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:48:53 - INFO - Req was made | / 
+30.3.2024, 9:48:53 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:49:17 - INFO - Req was made | / 
+30.3.2024, 9:49:17 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:49:30 - INFO - Req was made | / 
+30.3.2024, 9:49:30 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:49:53 - INFO - Req was made | / 
+30.3.2024, 9:49:53 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:58:37 - INFO - Req was made | / 
+30.3.2024, 9:58:37 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 9:58:51 - INFO - Req was made | / 
+30.3.2024, 9:58:51 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:00:25 - INFO - Req was made | / 
+30.3.2024, 10:00:25 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:00:47 - INFO - Req was made | / 
+30.3.2024, 10:00:47 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:02:34 - INFO - Req was made | / 
+30.3.2024, 10:02:34 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:02:49 - INFO - Req was made | / 
+30.3.2024, 10:02:49 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:03:52 - INFO - Req was made | / 
+30.3.2024, 10:03:52 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:04:53 - INFO - server.js loaded... 
+30.3.2024, 10:04:53 - INFO - Server is running on port: 3030 
+30.3.2024, 10:05:01 - INFO - Req was made | / 
+30.3.2024, 10:05:01 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:05:25 - INFO - Req was made | / 
+30.3.2024, 10:05:25 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:12:04 - INFO - Req was made | / 
+30.3.2024, 10:12:04 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:12:08 - INFO - Req was made | / 
+30.3.2024, 10:12:08 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:13:30 - INFO - Req was made | / 
+30.3.2024, 10:13:30 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:13:32 - INFO - Req was made | / 
+30.3.2024, 10:13:32 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:13:53 - INFO - Req was made | / 
+30.3.2024, 10:13:53 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:15:11 - INFO - server.js loaded... 
+30.3.2024, 10:15:11 - INFO - Server is running on port: 3030 
+30.3.2024, 10:15:13 - INFO - Req was made | / 
+30.3.2024, 10:15:13 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:15:33 - INFO - server.js loaded... 
+30.3.2024, 10:15:33 - INFO - Server is running on port: 3030 
+30.3.2024, 10:15:35 - INFO - Req was made | / 
+30.3.2024, 10:15:35 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:16:07 - INFO - server.js loaded... 
+30.3.2024, 10:16:07 - INFO - Server is running on port: 3030 
+30.3.2024, 10:16:08 - INFO - Req was made | / 
+30.3.2024, 10:16:08 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:16:42 - INFO - server.js loaded... 
+30.3.2024, 10:16:42 - INFO - Server is running on port: 3030 
+30.3.2024, 10:16:44 - INFO - Req was made | / 
+30.3.2024, 10:16:44 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:16:44 - ERROR - cannot find toys | TypeError: collection.toArray is not a function 
+30.3.2024, 10:16:44 - ERROR - Failed to get toys | TypeError: collection.toArray is not a function 
+30.3.2024, 10:16:51 - INFO - server.js loaded... 
+30.3.2024, 10:16:51 - INFO - Server is running on port: 3030 
+30.3.2024, 10:17:03 - INFO - Req was made | / 
+30.3.2024, 10:17:03 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:17:22 - INFO - server.js loaded... 
+30.3.2024, 10:17:22 - INFO - Server is running on port: 3030 
+30.3.2024, 10:17:29 - INFO - Req was made | / 
+30.3.2024, 10:17:29 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:17:29 - ERROR - cannot find toys | TypeError: collection.toArray is not a function 
+30.3.2024, 10:17:29 - ERROR - Failed to get toys | TypeError: collection.toArray is not a function 
+30.3.2024, 10:17:50 - INFO - server.js loaded... 
+30.3.2024, 10:17:50 - INFO - Server is running on port: 3030 
+30.3.2024, 10:17:52 - INFO - Req was made | / 
+30.3.2024, 10:17:52 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:17:52 - ERROR - Failed to get toys | TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'NativeTopology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle 
+30.3.2024, 10:19:16 - INFO - server.js loaded... 
+30.3.2024, 10:19:16 - INFO - Server is running on port: 3030 
+30.3.2024, 10:19:19 - INFO - Req was made | / 
+30.3.2024, 10:19:19 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:20:47 - INFO - server.js loaded... 
+30.3.2024, 10:20:47 - INFO - Server is running on port: 3030 
+30.3.2024, 10:20:49 - INFO - Req was made | / 
+30.3.2024, 10:20:49 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:33:06 - INFO - Req was made | / 
+30.3.2024, 10:33:06 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:33:14 - INFO - Req was made | / 
+30.3.2024, 10:33:14 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:33:16 - INFO - Req was made | / 
+30.3.2024, 10:33:16 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:33:30 - INFO - Server is running on port: 3030 
+30.3.2024, 10:33:30 - INFO - server.js loaded... 
+30.3.2024, 10:33:33 - INFO - Req was made | / 
+30.3.2024, 10:33:33 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:33:46 - INFO - Req was made | / 
+30.3.2024, 10:33:46 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:34:30 - INFO - server.js loaded... 
+30.3.2024, 10:34:30 - INFO - Server is running on port: 3030 
+30.3.2024, 10:34:34 - INFO - Req was made | / 
+30.3.2024, 10:34:34 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:34:45 - INFO - Req was made | / 
+30.3.2024, 10:34:45 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:35:07 - INFO - Req was made | / 
+30.3.2024, 10:35:07 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:36:37 - INFO - Req was made | / 
+30.3.2024, 10:36:37 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:41:59 - INFO - Req was made | / 
+30.3.2024, 10:41:59 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:50:45 - INFO - server.js loaded... 
+30.3.2024, 10:50:45 - INFO - Server is running on port: 3030 
+30.3.2024, 10:51:16 - INFO - Req was made | / 
+30.3.2024, 10:51:16 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:51:28 - INFO - Req was made | / 
+30.3.2024, 10:51:28 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:51:41 - INFO - Req was made | / 
+30.3.2024, 10:51:41 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:51:45 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:51:45 - INFO - Req was made | / 
+30.3.2024, 10:52:20 - INFO - Req was made | / 
+30.3.2024, 10:52:20 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:52:41 - INFO - Req was made | / 
+30.3.2024, 10:52:41 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:52:47 - INFO - Req was made | / 
+30.3.2024, 10:52:47 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:53:09 - INFO - Req was made | / 
+30.3.2024, 10:53:09 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:53:39 - INFO - Req was made | / 
+30.3.2024, 10:53:39 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:56:19 - INFO - Req was made | / 
+30.3.2024, 10:56:19 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:56:56 - INFO - Req was made | / 
+30.3.2024, 10:56:56 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:58:25 - INFO - Req was made | / 
+30.3.2024, 10:58:25 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:59:07 - INFO - Req was made | / 
+30.3.2024, 10:59:07 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 10:59:50 - INFO - Req was made | / 
+30.3.2024, 10:59:50 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 11:01:20 - INFO - Req was made | / 
+30.3.2024, 11:01:20 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 11:03:04 - INFO - server.js loaded... 
+30.3.2024, 11:03:04 - INFO - Server is running on port: 3030 
+30.3.2024, 11:14:51 - INFO - Server is running on port: 3030 
+30.3.2024, 11:14:51 - INFO - server.js loaded... 
+30.3.2024, 11:15:10 - INFO - server.js loaded... 
+30.3.2024, 11:15:10 - INFO - Server is running on port: 3030 
+30.3.2024, 11:15:51 - INFO - Req was made | / 
+30.3.2024, 11:15:51 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 11:21:55 - INFO - Req was made | / 
+30.3.2024, 11:21:55 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:39:47 - INFO - Req was made | / 
+30.3.2024, 12:39:47 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:44:18 - DEBUG - auth.service - signup with username: RoiDoron, fullname: roi doron 
+30.3.2024, 12:44:18 - DEBUG - auth.route - new account created: {"username":"RoiDoron","password":"$2b$10$DkpyeHnbZCNLpRjKzJCIGuEUIASOzB6MsOX4KW44Deky5XismDSBq","fullname":"roi doron","score":0,"_id":"6607def29b7d1f2170bffe56"} 
+30.3.2024, 12:44:18 - DEBUG - auth.service - login with username: RoiDoron 
+30.3.2024, 12:45:52 - INFO - Req was made | / 
+30.3.2024, 12:45:52 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:46:01 - INFO - Req was made | / 
+30.3.2024, 12:46:01 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:46:08 - INFO - Req was made | / 
+30.3.2024, 12:46:08 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:46:53 - INFO - Req was made | / 
+30.3.2024, 12:46:53 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:47:28 - INFO - Req was made | / 
+30.3.2024, 12:47:28 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:47:28 - INFO - Req was made | / 
+30.3.2024, 12:47:28 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:47:47 - INFO - Req was made | / 
+30.3.2024, 12:47:47 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:47:48 - INFO - Req was made | / 
+30.3.2024, 12:47:48 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:47:54 - INFO - Req was made | / 
+30.3.2024, 12:47:54 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:48:12 - INFO - server.js loaded... 
+30.3.2024, 12:48:12 - INFO - Server is running on port: 3030 
+30.3.2024, 12:48:14 - INFO - Req was made | / 
+30.3.2024, 12:48:14 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:48:16 - INFO - Req was made | / 
+30.3.2024, 12:48:16 - DEBUG - Getting Toys | {"txt":""} 
+30.3.2024, 12:48:47 - INFO - server.js loaded... 
+30.3.2024, 12:48:47 - INFO - Server is running on port: 3030 
+30.3.2024, 12:48:52 - INFO - Req was made | / 
+30.3.2024, 12:48:52 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:48:52 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+30.3.2024, 12:48:52 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+30.3.2024, 12:49:08 - INFO - Req was made | / 
+30.3.2024, 12:49:08 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:49:08 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+30.3.2024, 12:49:08 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+30.3.2024, 12:50:05 - INFO - Req was made | / 
+30.3.2024, 12:50:05 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:50:05 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+30.3.2024, 12:50:05 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+30.3.2024, 12:50:17 - INFO - Req was made | / 
+30.3.2024, 12:50:17 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:50:17 - ERROR - cannot find toys | MongoError: $regex has to be a string 
+30.3.2024, 12:50:17 - ERROR - Failed to get toys | MongoError: $regex has to be a string 
+30.3.2024, 12:50:50 - INFO - server.js loaded... 
+30.3.2024, 12:50:50 - INFO - Server is running on port: 3030 
+30.3.2024, 12:50:52 - INFO - Req was made | / 
+30.3.2024, 12:50:52 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:51:02 - INFO - Req was made | / 
+30.3.2024, 12:51:02 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:51:05 - INFO - Req was made | / 
+30.3.2024, 12:51:05 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:51:27 - INFO - Req was made | / 
+30.3.2024, 12:51:27 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:51:27 - INFO - Req was made | / 
+30.3.2024, 12:51:27 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:52:00 - INFO - server.js loaded... 
+30.3.2024, 12:52:00 - INFO - Server is running on port: 3030 
+30.3.2024, 12:52:05 - INFO - Req was made | / 
+30.3.2024, 12:52:05 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:52:32 - INFO - server.js loaded... 
+30.3.2024, 12:52:32 - INFO - Server is running on port: 3030 
+30.3.2024, 12:52:35 - INFO - Req was made | / 
+30.3.2024, 12:52:35 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:52:39 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:52:39 - INFO - Req was made | / 
+30.3.2024, 12:52:54 - INFO - server.js loaded... 
+30.3.2024, 12:52:54 - INFO - Server is running on port: 3030 
+30.3.2024, 12:53:01 - INFO - Req was made | / 
+30.3.2024, 12:53:01 - DEBUG - Getting Toys | {"name":""} 
+30.3.2024, 12:53:36 - INFO - server.js loaded... 
+30.3.2024, 12:53:36 - INFO - Server is running on port: 3030 
+30.3.2024, 12:53:40 - INFO - Req was made | / 
+30.3.2024, 12:53:40 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:54:05 - INFO - server.js loaded... 
+30.3.2024, 12:54:05 - INFO - Server is running on port: 3030 
+30.3.2024, 12:54:09 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:54:09 - INFO - Req was made | / 
+30.3.2024, 12:54:53 - INFO - server.js loaded... 
+30.3.2024, 12:54:53 - INFO - Server is running on port: 3030 
+30.3.2024, 12:54:58 - INFO - Req was made | / 
+30.3.2024, 12:54:58 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:55:00 - INFO - Req was made | / 
+30.3.2024, 12:55:00 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:55:01 - INFO - Req was made | / 
+30.3.2024, 12:55:01 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:55:19 - INFO - server.js loaded... 
+30.3.2024, 12:55:19 - INFO - Server is running on port: 3030 
+30.3.2024, 12:55:25 - INFO - Req was made | / 
+30.3.2024, 12:55:25 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:55:59 - INFO - server.js loaded... 
+30.3.2024, 12:55:59 - INFO - Server is running on port: 3030 
+30.3.2024, 12:56:02 - INFO - Req was made | / 
+30.3.2024, 12:56:02 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:56:24 - INFO - server.js loaded... 
+30.3.2024, 12:56:24 - INFO - Server is running on port: 3030 
+30.3.2024, 12:56:27 - INFO - Req was made | / 
+30.3.2024, 12:56:27 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:57:21 - INFO - server.js loaded... 
+30.3.2024, 12:57:21 - INFO - Server is running on port: 3030 
+30.3.2024, 12:57:23 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'txt') 
+30.3.2024, 12:57:23 - INFO - Req was made | / 
+30.3.2024, 12:58:32 - INFO - server.js loaded... 
+30.3.2024, 12:58:32 - INFO - Server is running on port: 3030 
+30.3.2024, 12:58:43 - INFO - server.js loaded... 
+30.3.2024, 12:58:43 - INFO - Server is running on port: 3030 
+30.3.2024, 12:58:57 - INFO - Req was made | / 
+30.3.2024, 12:58:57 - DEBUG - Getting Toys | {"txt":"hg","maxPrice":"Infinity"} 
+30.3.2024, 12:58:58 - INFO - Req was made | / 
+30.3.2024, 12:58:58 - DEBUG - Getting Toys | {"txt":"h","maxPrice":"Infinity"} 
+30.3.2024, 12:59:00 - INFO - Req was made | / 
+30.3.2024, 12:59:00 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 12:59:02 - INFO - Req was made | / 
+30.3.2024, 12:59:02 - DEBUG - Getting Toys | {"txt":"ta","maxPrice":"Infinity"} 
+30.3.2024, 12:59:04 - INFO - Req was made | / 
+30.3.2024, 12:59:04 - DEBUG - Getting Toys | {"txt":"t","maxPrice":"Infinity"} 
+30.3.2024, 12:59:05 - INFO - Req was made | / 
+30.3.2024, 12:59:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 13:20:56 - INFO - Req was made | / 
+30.3.2024, 13:20:56 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 13:21:01 - INFO - Req was made | / 
+30.3.2024, 13:21:01 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 16:23:07 - INFO - Req was made | / 
+30.3.2024, 16:23:07 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 16:23:45 - DEBUG - auth.service - login with username: RoiDoron 
+30.3.2024, 16:23:45 - ERROR - Failed to Login Error: Invalid username or password 
+30.3.2024, 16:23:47 - DEBUG - auth.service - login with username: RoiDoron 
+30.3.2024, 16:23:48 - ERROR - Failed to Login Error: Invalid username or password 
+30.3.2024, 16:23:49 - DEBUG - auth.service - login with username: RoiDoron 
+30.3.2024, 16:23:49 - ERROR - Failed to Login Error: Invalid username or password 
+30.3.2024, 16:24:16 - DEBUG - auth.service - login with username: RoiDoron 
+30.3.2024, 16:24:16 - ERROR - Failed to Login Error: Invalid username or password 
+30.3.2024, 16:24:36 - DEBUG - auth.service - signup with username: john_doe, fullname: jhone 
+30.3.2024, 16:24:37 - DEBUG - auth.route - new account created: {"username":"john_doe","password":"$2b$10$qh/hjaC/YuYFjekChkdRkOS3PWZIoE2hGBQ8kGa8wh0scSbCffGV.","fullname":"jhone","score":0,"_id":"66081295e1d82e51240bc586"} 
+30.3.2024, 16:24:37 - DEBUG - auth.service - login with username: john_doe 
+30.3.2024, 16:34:24 - INFO - Req was made | / 
+30.3.2024, 16:34:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 16:38:58 - INFO - Req was made | / 
+30.3.2024, 16:38:58 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 16:45:51 - INFO - Req was made | / 
+30.3.2024, 16:45:51 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:20:36 - INFO - Req was made | / 
+30.3.2024, 17:20:36 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:33:18 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:33:18 - INFO - Req was made | / 
+30.3.2024, 17:48:18 - INFO - Req was made | / 
+30.3.2024, 17:48:18 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:49:13 - INFO - Req was made | / 
+30.3.2024, 17:49:13 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:49:19 - INFO - Req was made | / 
+30.3.2024, 17:49:19 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:50:00 - INFO - Req was made | / 
+30.3.2024, 17:50:00 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:50:14 - INFO - Req was made | / 
+30.3.2024, 17:50:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:54:48 - INFO - Req was made | / 
+30.3.2024, 17:54:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:57:34 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 17:57:34 - INFO - Req was made | / 
+30.3.2024, 17:58:08 - INFO - Req was made | / 
+30.3.2024, 17:58:08 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 18:00:11 - INFO - Req was made | / 
+30.3.2024, 18:00:11 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 18:01:19 - INFO - Req was made | / 
+30.3.2024, 18:01:19 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 18:01:35 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 18:01:35 - INFO - Req was made | / 
+30.3.2024, 18:03:57 - INFO - Req was made | / 
+30.3.2024, 18:03:57 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 19:59:30 - INFO - Req was made | / 
+30.3.2024, 19:59:30 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:03:22 - INFO - Req was made | / 
+30.3.2024, 20:03:22 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:16:48 - INFO - Req was made | / 
+30.3.2024, 20:16:48 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:20:33 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:20:33 - INFO - Req was made | / 
+30.3.2024, 20:29:55 - INFO - Req was made | / 
+30.3.2024, 20:29:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:37:46 - INFO - Req was made | / 
+30.3.2024, 20:37:46 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+30.3.2024, 20:59:35 - INFO - Req was made | / 
+30.3.2024, 20:59:35 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+31.3.2024, 17:27:25 - INFO - server.js loaded... 
+31.3.2024, 17:27:25 - INFO - Server is running on port: 3030 
+31.3.2024, 17:29:16 - INFO - Req was made | / 
+31.3.2024, 17:29:16 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+31.3.2024, 17:29:30 - INFO - Req was made | / 
+31.3.2024, 17:29:30 - DEBUG - Getting Toys | {"txt":"גם","maxPrice":"Infinity"} 
+31.3.2024, 17:29:32 - INFO - Req was made | / 
+31.3.2024, 17:29:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity"} 
+31.3.2024, 17:29:34 - DEBUG - Getting Toys | {"txt":"do","maxPrice":"Infinity"} 
+31.3.2024, 17:29:34 - INFO - Req was made | / 
+31.3.2024, 17:29:34 - INFO - Req was made | / 
+31.3.2024, 17:29:34 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:29:55 - INFO - Req was made | / 
+31.3.2024, 17:29:55 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:29:55 - INFO - Req was made | / 
+31.3.2024, 17:29:55 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:05 - INFO - server.js loaded... 
+31.3.2024, 17:31:05 - INFO - Server is running on port: 3030 
+31.3.2024, 17:31:09 - INFO - Req was made | / 
+31.3.2024, 17:31:09 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:09 - INFO - Req was made | / 
+31.3.2024, 17:31:09 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:27 - INFO - Req was made | / 
+31.3.2024, 17:31:27 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:43 - INFO - Req was made | / 
+31.3.2024, 17:31:43 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:48 - INFO - server.js loaded... 
+31.3.2024, 17:31:48 - INFO - Server is running on port: 3030 
+31.3.2024, 17:31:50 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:31:50 - INFO - Req was made | / 
+31.3.2024, 17:31:50 - INFO - Req was made | / 
+31.3.2024, 17:31:50 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:32:00 - INFO - server.js loaded... 
+31.3.2024, 17:32:00 - INFO - Server is running on port: 3030 
+31.3.2024, 17:32:03 - INFO - Req was made | / 
+31.3.2024, 17:32:03 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:32:03 - INFO - Req was made | / 
+31.3.2024, 17:32:03 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:32:14 - INFO - server.js loaded... 
+31.3.2024, 17:32:14 - INFO - Server is running on port: 3030 
+31.3.2024, 17:32:17 - INFO - Req was made | / 
+31.3.2024, 17:32:17 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"Infinity"} 
+31.3.2024, 17:34:33 - INFO - server.js loaded... 
+31.3.2024, 17:34:33 - INFO - Server is running on port: 3030 
+31.3.2024, 17:34:44 - INFO - server.js loaded... 
+31.3.2024, 17:34:44 - INFO - Server is running on port: 3030 
+31.3.2024, 17:34:49 - INFO - Req was made | / 
+31.3.2024, 17:34:49 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"12","status":null,"labels":null} 
+31.3.2024, 17:34:54 - INFO - Req was made | / 
+31.3.2024, 17:34:54 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"12","status":null,"labels":null} 
+31.3.2024, 17:34:54 - INFO - Req was made | / 
+31.3.2024, 17:34:54 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"12","status":null,"labels":null} 
+31.3.2024, 17:35:36 - INFO - server.js loaded... 
+31.3.2024, 17:35:36 - INFO - Server is running on port: 3030 
+31.3.2024, 17:35:39 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:35:39 - INFO - Req was made | / 
+31.3.2024, 17:36:35 - INFO - server.js loaded... 
+31.3.2024, 17:36:35 - INFO - Server is running on port: 3030 
+31.3.2024, 17:36:37 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:36:37 - INFO - Req was made | / 
+31.3.2024, 17:36:37 - INFO - Req was made | / 
+31.3.2024, 17:36:37 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:37:36 - INFO - server.js loaded... 
+31.3.2024, 17:37:36 - INFO - Server is running on port: 3030 
+31.3.2024, 17:38:09 - INFO - server.js loaded... 
+31.3.2024, 17:38:09 - INFO - Server is running on port: 3030 
+31.3.2024, 17:39:01 - INFO - server.js loaded... 
+31.3.2024, 17:39:01 - INFO - Server is running on port: 3030 
+31.3.2024, 17:39:12 - INFO - server.js loaded... 
+31.3.2024, 17:39:12 - INFO - Server is running on port: 3030 
+31.3.2024, 17:39:15 - INFO - Req was made | / 
+31.3.2024, 17:39:15 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:40:37 - INFO - server.js loaded... 
+31.3.2024, 17:40:37 - INFO - Server is running on port: 3030 
+31.3.2024, 17:40:42 - INFO - Req was made | / 
+31.3.2024, 17:40:42 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:40:42 - INFO - Req was made | / 
+31.3.2024, 17:40:42 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:40:52 - INFO - Req was made | / 
+31.3.2024, 17:40:52 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:40:55 - INFO - Req was made | / 
+31.3.2024, 17:40:55 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:41:23 - INFO - server.js loaded... 
+31.3.2024, 17:41:23 - INFO - Server is running on port: 3030 
+31.3.2024, 17:41:25 - INFO - Req was made | / 
+31.3.2024, 17:41:25 - DEBUG - Getting Toys | {"txt":"doll","maxPrice":"121","status":null,"labels":null} 
+31.3.2024, 17:42:43 - INFO - server.js loaded... 
+31.3.2024, 17:42:43 - INFO - Server is running on port: 3030 
+31.3.2024, 17:42:46 - INFO - Req was made | / 
+31.3.2024, 17:42:46 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:42:50 - INFO - Req was made | / 
+31.3.2024, 17:42:50 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:42:50 - INFO - Req was made | / 
+31.3.2024, 17:42:50 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:53:50 - INFO - server.js loaded... 
+31.3.2024, 17:53:50 - INFO - Server is running on port: 3030 
+31.3.2024, 17:54:15 - INFO - Req was made | / 
+31.3.2024, 17:54:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:54:40 - INFO - Req was made | / 
+31.3.2024, 17:54:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:54:40 - INFO - Req was made | / 
+31.3.2024, 17:54:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:34 - INFO - server.js loaded... 
+31.3.2024, 17:57:34 - INFO - Server is running on port: 3030 
+31.3.2024, 17:57:37 - INFO - Req was made | / 
+31.3.2024, 17:57:37 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:38 - INFO - Req was made | / 
+31.3.2024, 17:57:38 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:40 - INFO - Req was made | / 
+31.3.2024, 17:57:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:40 - INFO - Req was made | / 
+31.3.2024, 17:57:40 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:42 - INFO - Req was made | / 
+31.3.2024, 17:57:42 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:57:42 - INFO - Req was made | / 
+31.3.2024, 17:57:42 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:58:11 - INFO - server.js loaded... 
+31.3.2024, 17:58:11 - INFO - Server is running on port: 3030 
+31.3.2024, 17:58:14 - INFO - Req was made | / 
+31.3.2024, 17:58:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:58:14 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 17:58:14 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 17:58:14 - INFO - Req was made | / 
+31.3.2024, 17:58:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:58:14 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 17:58:14 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 17:58:20 - INFO - Req was made | / 
+31.3.2024, 17:58:20 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:58:20 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: name: [ "false" ] 
+31.3.2024, 17:58:20 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: name: [ "false" ] 
+31.3.2024, 17:58:20 - INFO - Req was made | / 
+31.3.2024, 17:58:20 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 17:58:20 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 17:58:20 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: name: [ "true" ] 
+31.3.2024, 18:00:55 - INFO - server.js loaded... 
+31.3.2024, 18:00:55 - INFO - Server is running on port: 3030 
+31.3.2024, 18:01:01 - INFO - Req was made | / 
+31.3.2024, 18:01:01 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:02 - INFO - Req was made | / 
+31.3.2024, 18:01:02 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:05 - INFO - Req was made | / 
+31.3.2024, 18:01:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:06 - INFO - Req was made | / 
+31.3.2024, 18:01:06 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:08 - INFO - Req was made | / 
+31.3.2024, 18:01:08 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:20 - INFO - server.js loaded... 
+31.3.2024, 18:01:20 - INFO - Server is running on port: 3030 
+31.3.2024, 18:01:24 - INFO - Req was made | / 
+31.3.2024, 18:01:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:25 - INFO - Req was made | / 
+31.3.2024, 18:01:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:51 - INFO - server.js loaded... 
+31.3.2024, 18:01:51 - INFO - Server is running on port: 3030 
+31.3.2024, 18:01:53 - INFO - Req was made | / 
+31.3.2024, 18:01:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:54 - INFO - Req was made | / 
+31.3.2024, 18:01:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:55 - INFO - Req was made | / 
+31.3.2024, 18:01:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:56 - INFO - Req was made | / 
+31.3.2024, 18:01:56 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:01:57 - INFO - Req was made | / 
+31.3.2024, 18:01:57 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:03:27 - INFO - Req was made | / 
+31.3.2024, 18:03:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:03:33 - INFO - Req was made | / 
+31.3.2024, 18:03:33 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:16:49 - INFO - Req was made | / 
+31.3.2024, 18:16:49 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:16:50 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 18:16:50 - INFO - Req was made | / 
+31.3.2024, 21:36:56 - DEBUG - auth.service - login with username: RoiDoron 
+31.3.2024, 21:36:56 - ERROR - Failed to Login Error: Invalid username or password 
+31.3.2024, 21:37:00 - DEBUG - auth.service - login with username: RoiDoron 
+31.3.2024, 21:37:00 - ERROR - Failed to Login Error: Invalid username or password 
+31.3.2024, 21:37:19 - DEBUG - auth.service - signup with username: roi, fullname: roi doron 
+31.3.2024, 21:37:19 - ERROR - cannot insert user | Error: Username taken 
+31.3.2024, 21:37:19 - ERROR - Failed to signup Error: Username taken 
+31.3.2024, 21:37:39 - DEBUG - auth.service - signup with username: lini, fullname: lini doron 
+31.3.2024, 21:37:39 - DEBUG - auth.route - new account created: {"username":"lini","password":"$2b$10$o66xCpCOEp7wpBlaKWGvI.web/rNA98YHIYfG39X7yEjE5YhY.DfG","fullname":"lini doron","score":0,"_id":"6609ad7300f4074424e83bcd"} 
+31.3.2024, 21:37:39 - DEBUG - auth.service - login with username: lini 
+31.3.2024, 21:37:55 - DEBUG - auth.service - login with username: lini 
+31.3.2024, 21:37:55 - INFO - User login:  | {"_id":"6609ad7300f4074424e83bcd","username":"lini","fullname":"lini doron","score":0} 
+31.3.2024, 21:37:59 - INFO - Req was made | / 
+31.3.2024, 21:37:59 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:05 - INFO - Req was made | / 
+31.3.2024, 21:38:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:05 - INFO - Req was made | / 
+31.3.2024, 21:38:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:10 - INFO - Req was made | / 
+31.3.2024, 21:38:10 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:23 - INFO - server.js loaded... 
+31.3.2024, 21:38:23 - INFO - Server is running on port: 3030 
+31.3.2024, 21:38:25 - INFO - Req was made | / 
+31.3.2024, 21:38:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:25 - ERROR - cannot find toys | MongoError: FieldPath cannot be constructed with empty string 
+31.3.2024, 21:38:25 - ERROR - Failed to get toys | MongoError: FieldPath cannot be constructed with empty string 
+31.3.2024, 21:38:25 - INFO - Req was made | / 
+31.3.2024, 21:38:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:25 - ERROR - cannot find toys | MongoError: FieldPath cannot be constructed with empty string 
+31.3.2024, 21:38:26 - ERROR - Failed to get toys | MongoError: FieldPath cannot be constructed with empty string 
+31.3.2024, 21:38:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:27 - INFO - Req was made | / 
+31.3.2024, 21:38:27 - INFO - Req was made | / 
+31.3.2024, 21:38:27 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:28 - INFO - Req was made | / 
+31.3.2024, 21:38:28 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:29 - INFO - Req was made | / 
+31.3.2024, 21:38:29 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:31 - INFO - Req was made | / 
+31.3.2024, 21:38:31 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:38:31 - INFO - Req was made | / 
+31.3.2024, 21:38:31 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:40:19 - INFO - server.js loaded... 
+31.3.2024, 21:40:19 - INFO - Server is running on port: 3030 
+31.3.2024, 21:40:21 - INFO - Req was made | / 
+31.3.2024, 21:40:21 - ERROR - Failed to get toys | ReferenceError: json is not defined 
+31.3.2024, 21:40:23 - INFO - Req was made | / 
+31.3.2024, 21:40:23 - ERROR - Failed to get toys | ReferenceError: json is not defined 
+31.3.2024, 21:41:40 - INFO - server.js loaded... 
+31.3.2024, 21:41:40 - INFO - Server is running on port: 3030 
+31.3.2024, 21:41:41 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:41:41 - INFO - Req was made | / 
+31.3.2024, 21:41:41 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:41:41 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:41:44 - INFO - Req was made | / 
+31.3.2024, 21:41:44 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:41:45 - INFO - Req was made | / 
+31.3.2024, 21:41:45 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:41:45 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:41:45 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:42:23 - INFO - server.js loaded... 
+31.3.2024, 21:42:23 - INFO - Server is running on port: 3030 
+31.3.2024, 21:42:24 - INFO - Req was made | / 
+31.3.2024, 21:42:24 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:42:32 - INFO - Req was made | / 
+31.3.2024, 21:42:32 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:42:33 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:42:33 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: createdAt: true 
+31.3.2024, 21:42:59 - INFO - server.js loaded... 
+31.3.2024, 21:42:59 - INFO - Server is running on port: 3030 
+31.3.2024, 21:43:03 - INFO - Req was made | / 
+31.3.2024, 21:43:03 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:43:04 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:43:04 - INFO - Req was made | / 
+31.3.2024, 21:43:05 - INFO - Req was made | / 
+31.3.2024, 21:43:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:43:05 - INFO - Req was made | / 
+31.3.2024, 21:43:05 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:45:34 - INFO - Req was made | / 
+31.3.2024, 21:45:34 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:45:53 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 
+31.3.2024, 21:45:53 - INFO - Req was made | / 
+31.3.2024, 21:46:15 - INFO - Req was made | / 
+31.3.2024, 21:46:15 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} 

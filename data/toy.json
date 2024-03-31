@@ -52,8 +52,8 @@
         "name": "Jumping Kangaroo",
         "price": 123,
         "labels": [
-            "Puzzle",
-            "Outdoor",
+            "On wheels",
+            "Box game",
             "Art"
         ],
         "createdAt": 1649139840000,
@@ -97,7 +97,29 @@
     },
     {
         "name": "Remote control tractor",
-        "price": 144,
-        "_id": "RtyAa"
+        "price": 100,
+        "labels": [
+            "On wheels"
+        ],
+        "createdAt": 1711551764007,
+        "_id": "S9nI6"
+    },
+    {
+        "name": "Roi Doron",
+        "price": 54,
+        "labels": [],
+        "createdAt": 1711553610248,
+        "_id": "8k4Mt"
+    },
+    {
+        "name": "Roi Doron",
+        "price": 87,
+        "labels": [
+            "On wheels",
+            "Box game",
+            "Art"
+        ],
+        "createdAt": 1711553827375,
+        "_id": "vGo7f"
     }
 ]
