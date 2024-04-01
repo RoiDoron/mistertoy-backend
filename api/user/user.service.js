@@ -1,26 +1,25 @@
-import { dbService } from '../../services/db.service.js'
-import { logger } from '../../services/logger.service.js'
-
+import {dbService} from '../../services/db.service.js'
+import {logger} from '../../services/logger.service.js'
+import {reviewService} from '../review/review.service.js'
 import mongodb from 'mongodb'
-const { ObjectId } = mongodb
+const {ObjectId} = mongodb
 
 export const userService = {
-    query,
-    getById,
-    getByUsername,
-    remove,
-    update,
-    add
+    add,            // Create (Signup)
+    getById,        // Read (Profile page)
+    update,         // Update (Edit profile)
+    remove,         // Delete (remove user)
+    query,          // List (of users)
+    getByUsername   // Used for Login
 }
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     try {
         const collection = await dbService.getCollection('user')
-        var users = await collection.find(criteria).sort({nickname: -1}).toArray()
+        var users = await collection.find(criteria).toArray()
         users = users.map(user => {
             delete user.password
-            user.isHappy = true
             user.createdAt = ObjectId(user._id).getTimestamp()
             // Returning fake fresh data
             // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
@@ -33,24 +32,33 @@ async function query(filterBy = {}) {
     }
 }
 
+
 async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ _id: ObjectId(userId) })
         delete user.password
+
+        user.givenReviews = await reviewService.query({ byUserId: ObjectId(user._id) })
+        user.givenReviews = user.givenReviews.map(review => {
+            delete review.byUser
+            return review
+        })
+
         return user
     } catch (err) {
-        logger.error(`while finding user ${userId}`, err)
+        logger.error(`while finding user by id: ${userId}`, err)
         throw err
     }
 }
+
 async function getByUsername(username) {
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ username })
         return user
     } catch (err) {
-        logger.error(`while finding user ${username}`, err)
+        logger.error(`while finding user by username: ${username}`, err)
         throw err
     }
 }
@@ -67,12 +75,11 @@ async function remove(userId) {
 
 async function update(user) {
     try {
-        // peek only updatable fields!
+        // peek only updatable properties
         const userToSave = {
-            _id: ObjectId(user._id),
-            username: user.username,
+            _id: ObjectId(user._id), // needed for the returnd obj
             fullname: user.fullname,
-            score: user.score
+            score: user.score,
         }
         const collection = await dbService.getCollection('user')
         await collection.updateOne({ _id: userToSave._id }, { $set: userToSave })
@@ -85,22 +92,19 @@ async function update(user) {
 
 async function add(user) {
     try {
-        // Validate that there are no such user:
-        const existUser = await getByUsername(user.username)
-        if (existUser) throw new Error('Username taken')
-
         // peek only updatable fields!
         const userToAdd = {
             username: user.username,
             password: user.password,
             fullname: user.fullname,
-            score: user.score || 0
+            imgUrl: user.imgUrl,
+            score: 100
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToAdd)
         return userToAdd
     } catch (err) {
-        logger.error('cannot insert user', err)
+        logger.error('cannot add user', err)
         throw err
     }
 }
@@ -119,7 +123,11 @@ function _buildCriteria(filterBy) {
         ]
     }
     if (filterBy.minBalance) {
-        criteria.balance = { $gte: filterBy.minBalance }
+        criteria.score = { $gte: filterBy.minBalance }
     }
     return criteria
 }
+
+
+
+
