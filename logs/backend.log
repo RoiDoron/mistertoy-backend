@@ -95,3 +95,7 @@
 1.4.2024, 22:01:28 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} (userId: 6609b38f89259b536420557a)
 1.4.2024, 22:02:31 - INFO - Server is running on port: 3030 
 1.4.2024, 22:11:53 - INFO - Server is running on port: 3030 
+2.4.2024, 20:33:10 - INFO - Server is running on port: 3030 
+2.4.2024, 20:33:14 - INFO - Sample Logger Middleware (userId: 660c06efed6076022d035744)
+2.4.2024, 20:33:14 - DEBUG - Getting Toys | {"txt":"","maxPrice":"Infinity","status":null,"labels":null} (userId: 660c06efed6076022d035744)
+2.4.2024, 20:33:19 - INFO - Sample Logger Middleware (userId: 660c06efed6076022d035744)
